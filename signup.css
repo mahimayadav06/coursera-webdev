@@ -1,0 +1,86 @@
+.not-ok
+{
+    color: red;
+   /* background-color: yellow;*/
+    background-image: url(../pics/notok.png);
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+}
+.ok
+{
+     background-image: url(../pics/ok.png);
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+}
+label
+{
+    float: left;
+    margin-right: 10px;
+}
+#errUid
+{
+    
+    float: left;
+}
+#errPwd
+{
+    color:black;
+    float: left;
+}
+.btn
+{
+    display: inline;
+    padding: 10px;
+    border: 1px red solid;
+    background-color: white;
+    position: absolute;
+    top: 20px;
+    left: 45%;
+    cursor: pointer;
+}
+#box
+{
+    width: 300px;
+    height: 350px;;
+    margin: 100px auto;
+    border: 1px black solid;
+    background-color: white;
+    padding: 50px;
+}
+.boxx
+{
+    display: none;
+    width: 300px;
+    height: 300px;;
+    background-color: white;
+    margin: 100px auto;
+    border: 1px black solid;
+    
+    padding: 50px;
+}
+body
+{
+    background-color: dimgrey;
+    
+}
+input[type="text"]
+{
+    width: 100%;
+    line-height: 30px;
+}
+input[type="password"]
+{
+    width: 100%;
+    line-height: 30px;
+}
+input[type="button"]
+{
+    
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
